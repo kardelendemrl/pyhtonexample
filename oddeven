@@ -1,0 +1,7 @@
+listodd=[1,3,5,7,9]
+listeven=[2,4,6,8,10]
+newlist=listeven+listodd
+newlist2=[i*2 for i in newlist]
+for a in newlist2:
+print(type(a))
+
